@@ -8,4 +8,11 @@ import kotlinx.coroutines.flow.Flow
 interface UserRepository {
 
     fun getsUSerDetails(userid: String): Flow<Response<User>>
+    fun setUserDetails(
+        userid:String,
+        name:String,
+        userName:String,
+        bio:String,
+        websiteUrl:String
+    ):Flow<Response<Boolean>>
 }

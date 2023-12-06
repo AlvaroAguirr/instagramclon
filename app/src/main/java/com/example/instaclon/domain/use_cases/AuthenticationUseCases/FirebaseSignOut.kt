@@ -1,4 +1,4 @@
-package com.example.instaclon.domain.use_cases
+package com.example.instaclon.domain.use_cases.AuthenticationUseCases
 
 import com.example.instaclon.domain.repository.AuthenticationRepository
 import javax.inject.Inject

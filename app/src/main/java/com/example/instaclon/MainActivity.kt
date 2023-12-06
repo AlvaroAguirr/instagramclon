@@ -6,10 +6,8 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
@@ -19,13 +17,12 @@ import com.example.instaclon.presentation.Authentication.AuthenticationViewModel
 import com.example.instaclon.presentation.Authentication.LoginScreen
 import com.example.instaclon.presentation.Authentication.SignUpScreen
 import com.example.instaclon.presentation.Main.FeedsScreen
-import com.example.instaclon.presentation.Main.ProfileScreen
+import com.example.instaclon.presentation.Main.Profile.ProfileScreen
 import com.example.instaclon.presentation.Main.SearchScreen
 import com.example.instaclon.presentation.SplashScreen
 import com.example.instaclon.ui.theme.InstaclonTheme
 import com.example.instaclon.util.Screens
 import dagger.hilt.android.AndroidEntryPoint
-import dagger.hilt.android.HiltAndroidApp
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

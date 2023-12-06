@@ -12,10 +12,11 @@ import com.example.instaclon.presentation.BottomNavigationMenu
 @Composable
 fun FeedsScreen(navController:NavController){
     Column(modifier= Modifier.fillMaxSize()){
-        Column (modifier= Modifier.weight(1f)){
-            Text(text = "Feeds Screen")
-
+        Column(modifier = Modifier.weight(1f)){
+            Text(text= "FEED Scren")
         }
         BottomNavigationMenu(selectItem = BottomNavegationitem.FEED, navController =navController )
     }
+
 }
+
